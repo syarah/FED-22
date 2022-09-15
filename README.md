@@ -36,27 +36,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://eu.gymshark.com
+  https://eu.waterdrop.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
 
   Homepage 
 
-  <img src="readme-images/screenshot_1.png" width="375px" alt="home page - landing page">
+  <img src="readme-images/waterdrop_1.png" width="375px" alt="home page - landing page">
 
-  <img src="readme-images/screenshot_2.png" width="375px" alt="home page - section 1">
+  <img src="readme-images/waterdrop_2.png" width="375px" alt="home page - section 1">
 
-  <img src="readme-images/screenshot_3.png" width="375px" alt="home page - section 2">
+  <img src="readme-images/waterdrop_3.png" width="375px" alt="home page - section 2">
 
-  <img src="readme-images/screenshot_4.png" width="375px" alt="Home page - Footer">
+  <img src="readme-images/waterdrop_4.png" width="375px" alt="Home page - Footer">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   
   Newsletter 
 
- <img src="readme-images/screenshot_5.png" width="375px" alt="Newsletter page - landing page form">
+ <img src="readme-images/waterdrop_5.png" width="375px" alt="detail page">
 
- <img src="readme-images/screenshot_6.png" width="375px" alt="Newsletter page - Footer">
+ <img src="readme-images/waterdrop_6.png" width="375px" alt="detail page - Footer">
 
  
 </details>
@@ -126,6 +126,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Deze week heb ik de tyupografie oefeningen gemaakt en geoefend met flexbox en custom properties
+
+(insert extra uitleg en tegenslagen)
+
+Progress fotos:
+
+<img src="images/progress_1.png" width="375px" alt="">
+<img src="images/progress_2.png" width="375px" alt="">
+<img src="images/progress_3.png" width="375px" alt="">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
