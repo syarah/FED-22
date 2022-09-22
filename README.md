@@ -76,6 +76,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  --> taal veranderd bij stappen
+  --> sold out word niet meteen voorgelezen, eerst door alles heen en dan naar de sold out knop
+  --> images hebben beschrijving 
+
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -93,6 +97,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+--> rechtyerkant van eht scherm is slecht/niet te zien en het midde is (hemifield loss
+--> blur/glare, alles is slecht te lezen en wazig en sommige opties zijn niet te zin omdat de kleur grijs is (kruisjes), website is vrij visueel dus je kan wel raden waar je naar kijkt
+--> color, alles is nog goed te zien en te lezenm, de website heeft veel wit dus alles is nog helder en zichtbaar
+--> simuspecs, website is nog wel te bedienen, letterltyoe is vrij groot en elementen ook dus alles is nog goed te lezen
+
 
 </details>
 
