@@ -113,7 +113,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown schetsen/Mobile breakdown sketch - homepage FINAL.jpg" width="375px" alt="breakdown van de hele homepage pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -135,7 +135,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-Deze week heb ik de tyupografie oefeningen gemaakt en geoefend met flexbox en custom properties
+Deze week heb ik de typografie oefeningen gemaakt en geoefend met flexbox en custom properties
 
 (insert extra uitleg en tegenslagen)
 
