@@ -162,7 +162,7 @@ Voor het eertse voorgtnag gesprek was ik nog niet zeer ver met de website. Ik fo
   | css selectoren | Breakdownschets| breakdown schets, basic html vragen | afwezig 
   | ...            | ...                | ...          | ...              |         
 
-| student 1      | 
+| cesar     | 
   | ---            | 
   | dit bespreken  | 
   | en dat ook nog | 
