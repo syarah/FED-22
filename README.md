@@ -152,7 +152,7 @@ Progress fotos:
 Voor het eertse voorgtnag gesprek was ik nog niet zeer ver met de website. Ik focuste vooral op de oefeneingen en weer inkomen in het coderen van html en css. Voor de website heb ik de basis html kunnen schrijven van de eerste section van de homepage.
 
 <img src="readme-images/voortgang website/voortgang code 1.png" width="375px" alt="">
-
+<img src="readme-images/voortgang website/voortgang code 1.2.png" width="375px" alt="">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -207,16 +207,16 @@ Deze week gewerkt aan grid oefeningen en
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Syarah      | Nensi          | Lichelle   | cesar        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Css-styling  | menu styling             | geen vragen    | lettertype    |
+  |  |  |  |  |
   | ...            | ...                | ...          | ...              |
 
-| student 5      | 
+| Linsey     | 
   | ---            |
-  | dit bespreken  | 
-  | en dat ook nog | 
+  | geen vragen  | 
+  |  | 
   | ...            
 
 
