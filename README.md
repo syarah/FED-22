@@ -195,27 +195,46 @@ Voor het eertse voorgtnag gesprek was ik nog niet zeer ver met de website. Ik fo
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ## CSS selectoren
-week 27 sept - in de les geoefend met css selectoren, begon stroef maar werd er steeds beter in en heb alle opdrachtjes afgerond - insert screen shot
+- week 27 sept 
+in de les geoefend met css selectoren, begon stroef maar werd er steeds beter in en heb alle opdrachtjes afgerond
 
-week 3 okt - 6 okt
+<img src="readme-images/progressie/CSS select 1.png" width="300px" alt="">
+
+
+- week 3 okt - 6 okt
 CSS heb ik nu door en kan ik goed mee overweg in de code voor mn website
 
-insert screenshot:
+#### CSS screenshot:
+<img src="readme-images/voortgang website/CSS voortgang/css_voortgangGesprek2/prog_css.png" width="300px" alt="">
+<img src="readme-images/voortgang website/CSS voortgang/css_voortgangGesprek2/prog_css2.png" width="300px" alt="">
+<img src="readme-images/voortgang website/CSS voortgang/css_voortgangGesprek2/prog_css3.png" width="300px" alt="">
+<img src="readme-images/voortgang website/CSS voortgang/css_voortgangGesprek2/prog_css4.png" width="300px" alt="">
+<img src="readme-images/voortgang website/CSS voortgang/css_voortgangGesprek2/prog_css5.png" width="300px" alt="">
+<img src="readme-images/voortgang website/CSS voortgang/css_voortgangGesprek2/prog_css6.png" width="300px" alt="">
 
 
 ### Grid
-Deze week gewerkt aan grid oefeningen met de grid garden om daar meer mee te kunne oefenen. Grid in de oefening vind ik wel te doen maar grid in mijn wbesite is nog niet gelukt omdat ik nog niet duidelijk weet waar ik grd voor kan gebruiken in mijn website
+Deze week gewerkt aan grid oefeningen met de grid garden om daar meer mee te kunne oefenen. Grid in de oefening vind ik wel te doen maar grid in mijn wbesite is nog niet gelukt omdat ik nog niet duidelijk weet waar ik grid voor kan gebruiken in mijn website
 
-### CSS Styling
+<img src="readme-images/progressie/grid 1.png" width="300px" alt="">
+<img src="readme-images/progressie/grid 2.png" width="300px" alt="">
 
-week 3 okt - 6 okt
+### Website voortgang
 
 Ook heb ik deze week mijn html voor de eerste pagina afgerond en ben aan de slag gegaan met de css. Voor de 2e voortgang heb ik de css over de helft af kunnen krijgen. 
 
 Tijdens de css styling liep ik tegen een aantal punten aan die en besloot daar vragen over te stellen vij de voortgang.
 
-Screenshot prgressie:
+#### Html screenshots
 
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html.png" width="300px" alt="">
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html2.png" width="300px" alt="">
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html3.png" width="300px" alt="">
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html4.png" width="300px" alt="">
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html5.png" width="300px" alt="">
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html6.png" width="300px" alt="">
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html7.png" width="300px" alt="">
+<img src="readme-images/voortgang website/html voortgang/html_voorgangGesprek2/prog_html8.png" width="300px" alt="">
 
 
 ### Flexbox en postioneren
@@ -229,9 +248,9 @@ Dit was ook het geval met positioneren. Ik wist de termen maar sprak in de verke
 
 Zoals eerder benoemd waren dit onderdelen die goed dingen:
 
-html schrijven
-css selectoren
-flex box en positioneren
+- html schrijven
+- css selectoren
+- flex box en positioneren
 
 
 # wat ging niet goed
@@ -245,11 +264,15 @@ voorafgaande voortgang liep ik tegen een aantal probelemen aan:
  Als ik het font groter maakte verdween het. Ik kwam er veel later achter dat het niet verdween, Ik scrolde naar boven en zah de h3 in een groter formaat staan. De position die ik eraan gaf zorgte ervoor dat het grotere font niet op dezelfde plek kon staan.
 
  <img src="readme-images/progressie/voortgang2/prog_h3_me.png" width="300px" alt="">
+ <img src="readme-images/progressie/voortgang2/prog_h3_real.png" width="300px" alt="">
 
  dit is hoe groot het text formaat moet zijn op de website (ik vond zelf dat het goed overeen kwam) Bron screenshot website:https://eu.waterdrop.com/
-<img src="readme-images/progressie/voortgang2/prog_h3_real.png" width="300px" alt="">
+
 
 ## styling p'tjes in de carousels
+
+Ik kreeg de p'tje niet onder elkaar zoals op de website
+
  <img src="readme-images/progressie/voortgang2/prog_p.png" width="300px" alt="breakdown van nog een dynamisch deel">
 
  <img src="readme-images/progressie/voortgang2/prog_p2.png" width="300px" alt="breakdown van nog een dynamisch deel">
@@ -257,6 +280,7 @@ voorafgaande voortgang liep ik tegen een aantal probelemen aan:
 ## Nav bar styling
 
 Het tweede deel van de navbar lukte me nog niet om correct te stylen. Hier wil ik zelf eerst meer aandacht aan besteden en zal er op een later moment hulp bij vragen. 
+
 <img src="readme-images/progressie/voortgang2/prog_navbar2.png" width="300px" alt="">
 
 
