@@ -195,10 +195,81 @@ Voor het eertse voorgtnag gesprek was ik nog niet zeer ver met de website. Ik fo
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ## CSS selectoren
-27 sept - in de les geoefend met css selectoren, begon stroef maar werd er steeds beter in en heb alle opdrachtjes afgerond - insert screen shot
+week 27 sept - in de les geoefend met css selectoren, begon stroef maar werd er steeds beter in en heb alle opdrachtjes afgerond - insert screen shot
+
+week 3 okt - 6 okt
+CSS heb ik nu door en kan ik goed mee overweg in de code voor mn website
+
+insert screenshot:
+
 
 ## Grid
-Deze week gewerkt aan grid oefeningen en 
+Deze week gewerkt aan grid oefeningen met de grid garden om daar meer mee te kunne oefenen. Grid in de oefening vind ik wel te doen maar grid in mijn wbesite is nog niet gelukt omdat ik nog niet duidelijk weet waar ik grd voor kan gebruiken in mijn website
+
+## CSS Styling
+
+week 3 okt - 6 okt
+
+Ook heb ik deze week mijn html voor de eerste pagina afgerond en ben aan de slag gegaan met de css. Voor de 2e voortgang heb ik de css over de helft af kunnen krijgen. 
+
+Tijdens de css styling liep ik tegen een aantal punten aan die en besloot daar vragen over te stellen vij de voortgang.
+
+Screenshot prgressie:
+
+
+
+## Flexbox en postioneren
+
+flexbox was in de les en oefeningen zeer goed te doen alleen lukte het niet om te doen tijdens het css stylen. Na een aantal keer dingen te proberen code stukmaken en door de voorbeelden van sanne heen werd het iets meer helder en heb ik het nu toe kunnen  passen. Het probleem zat vooral dat ik eerst display flex tegen te parent moest zeggen voordat ik met de kinderen kon flexen.
+
+Dit was ook het geval met positioneren. Ik wist de termen maar sprak in de verkeerde volgorde tegen de kinderen en de parents.
+
+
+## Wat ging goed
+
+Zoals eerder benoemd waren dit onderdelen die goed dingen:
+
+html schrijven
+css selectoren
+flex box en positioneren
+
+
+## wat ging niet goed
+
+voorafgaande voortgang liep ik tegen een aantal probelemen aan:
+
+# nav bar verwdijnt achter de images
+ <img src="readme-images/progressie/voortgang2/prog_navbar.png" width="375px" alt="">
+  
+# font size van een h1, h2, h3 etc veranderingen lukte niet
+ Als ik het font groter maakte verdween het. Ik kwam er veel later achter dat het niet verdween, Ik scrolde naar boven en zah de h3 in een groter formaat staan. De position die ik eraan gaf zorgte ervoor dat het grotere font niet op dezelfde plek kon staan.
+
+ <img src="readme-images/progressie/voortgang2/prog_h3_me.png" width="375px" alt="">
+
+ dit is hoe groot het text formaat moet zijn op de website (ik vond zelf dat het goed overeen kwam) Bron screenshot website:https://eu.waterdrop.com/
+<img src="readme-images/progressie/voortgang2/prog_h3_real.png" width="375px" alt="">
+
+# styling van de p'tjes in de carousels lukte niet
+ <img src="readme-images/progressie/voortgang2/prog_p.png" width="375px" alt="breakdown van nog een dynamisch deel">
+
+ <img src="readme-images/progressie/voortgang2/prog_p2.png" width="375px" alt="breakdown van nog een dynamisch deel">
+
+# Nav bar styling
+
+Het tweede deel van de navbar lukte me nog niet om correct te stylen. Hier wil ik zelf eerst meer aandacht aan besteden en zal er op een later moment hulp bij vragen. 
+<img src="readme-images/progressie/voortgang2/prog_navbar2.png" width="375px" alt="">
+
+
+# Promo image moest meer ingezoomd en had geen idee hoe 
+ <img src="readme-images/progressie/voortgang2/prog_h3_me.png" width="375px" alt="">
+<img src="readme-images/progressie/voortgang2/prog_h3_real.png" width="375px" alt="">
+
+
+# zelf carousels maken
+ondanks het oefenen in de lessen lukte het me (na een aantal uur coderen en code stukmaken) niet om de carousel zelf volledig werkend te krijgen dus ik heb gebruik gemaakt van een van de voorbeelden van sanne en eruit gehaald wat ik nodig had om mijn carousels werkend te krijgen
+
+<img src="readme-images/progressie/voortgang2/prog_carousel1.png" width="375px " alt="breakdown van nog een dynamisch deel">
+
 
 
 
@@ -223,10 +294,26 @@ Deze week gewerkt aan grid oefeningen en
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - navbar verdwijnt achter images --> gebruik maken van zindex om herarchie te creeren (probleem opgelost!)
+<img src="readme-images/progressie/voortgang2/prog_navbar2.png" width="375px" alt="">
+  
+
+
+  - Font size aanpassen --> jeffrey heeft laten zien hoe het moet. Door het schrijven van een langere css regel word die code meer belangrijk en zal het font wel moeten veranderen. Probleem bij mij ligt waarschijnlijk aan css code die botst met het fontsize en niet genoeg ruimte heeft om groter te worden
+
+  <img src="readme-images/progressie/voortgang2/prog_h3.png" width="375px" alt="">
+  
+
+  - Styling p --> Jeffrey gaf aan dat er meer manieren voor zijn (makkelijkst is om er een ul + li van temaken) dus ik ga wat uitproberen en kan bij hem terecht mocht het niet lukken
+
+
+- video styling --> Het video format die ik had gedownload had niet het juiste format voor mobile. Jeffrey liet zien waar ik de source kon vinden en heb nu de landingpage video met mobile size! (ook gaf hij aan ivm privacy rechten dat er een play button bij moet)
+
+
+- image styling --> 
+
+
+
 
 </details>
 
