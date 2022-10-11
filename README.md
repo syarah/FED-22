@@ -281,18 +281,18 @@ Ik kreeg de p'tje niet onder elkaar zoals op de website
 
 Het tweede deel van de navbar lukte me nog niet om correct te stylen. Hier wil ik zelf eerst meer aandacht aan besteden en zal er op een later moment hulp bij vragen. 
 
-<img src="readme-images/progressie/voortgang2/prog_navbar2.png" width="300px" alt="">
+<img src="readme-images/progressie/voortgang2/prog_navbar2.png" width="375px" alt="">
 
 
 ## Promo image scale 
- <img src="readme-images/progressie/voortgang2/prog_h3_me.png" width="375px" alt="">
-<img src="readme-images/progressie/voortgang2/prog_h3_real.png" width="375px" alt="">
+ <img src="readme-images/progressie/voortgang2/prog_h3_me.png" width="300px" alt="">
+<img src="readme-images/progressie/voortgang2/prog_h3_real.png" width="300px" alt="">
 
 
 ## zelf carousels maken
 ondanks het oefenen in de lessen lukte het me (na een aantal uur coderen en code stukmaken) niet om de carousel zelf volledig werkend te krijgen dus ik heb gebruik gemaakt van een van de voorbeelden van sanne en eruit gehaald wat ik nodig had om mijn carousels werkend te krijgen
 
-<img src="readme-images/progressie/voortgang2/prog_carousel1.png" width="375px " alt="breakdown van nog een dynamisch deel">
+<img src="readme-images/progressie/voortgang2/prog_carousel1.png" width="400px " alt="breakdown van nog een dynamisch deel">
 
 
 
@@ -447,8 +447,16 @@ ondanks het oefenen in de lessen lukte het me (na een aantal uur coderen en code
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Sanne Voorbeelden carousel - https://codepen.io/shooft/pen/BaxVvYG
+
+  2. Video homepage - https://eu.waterdrop.com en https://cdn.shopify.com/videos/c/o/v/be9dcd0bf77643eda49d587dbe908eef.mp4
+
+  3. positioneren --> 
+
+  4. uppercase in text --> https://www.w3schools.com/cssref/pr_text_text-transform.asp
+
+  5. Repsonsive images --> https://www.w3schools.com/howto/howto_css_image_responsive.asp
+
+  6. remove white gap on page --> https://stackoverflow.com/questions/23664510/how-to-remove-white-space-left-and-right-side-of-page
 
 </details>
