@@ -22,13 +22,13 @@ summary {
 
   --color-footer: black;
   --color-footer-text: white;
+
+  
 }
 
 /****************/
-/* JOUW STYLING */
+/* GENERAL CSS */
 /****************/
-
-/* jouw code */
 
 body {
   color: var(--color-text);
@@ -51,7 +51,7 @@ header {
 
 /* buttons verdwijnen achter a:(!!!!!! */
 header button{
-	z-index: -1;
+	z-index: 2
 }
 
 /* z index --> creating hierarchy between images ansd elements in page */
@@ -65,7 +65,7 @@ section:nth-of-type(1) {
 
 /* promo link bovenaan (blijft niet vast zitten - gelukt met hulp van nensi en jeffry)  */
 header > a {
-  background-color: #2e2e2e;
+  background-color:#353535;
   padding: 0.25em 0em 0.25em 0.5em;
 
   margin: 0em;
@@ -89,12 +89,32 @@ header > a {
 }
 
 
+header > button:nth-of-type(1) {
+
+	position: fixed;
+    background-color: transparent;
+	padding: 0em;
+	left: 2em;
+	border: none;
+	top: 1em;
+	
+}
+
+header > button:nth-of-type(2) {
+
+	position: fixed;
+    background-color: transparent;
+	padding: 0em;
+	right: 2em; 
+	top: 1em; 
+	border: none;	
+}
 
 /* nav bar */
-header nav ul {
+header nav ul{
   list-style: none;
   background-color: white;
-  padding: 0.75em 0em 0.25em 0em;
+  padding: 1em 0em 0.5em 0em;
   top: 2.7em;
   margin: 0em;
 
@@ -104,52 +124,83 @@ header nav ul {
 
   display: flex;
  
-  
 }
 
+/* styling items in de navbar */
 header nav ul li{
-
 	display: flex;
 	flex-grow: 1;
+    justify-content: center;
+	padding: 0;
+	margin: 0;
 	
 }
 
-/* logo */
+
+/* positie buttons nav bar left and right side */
+header nav ul li:nth-of-type(1){
+
+	justify-content: flex-start;
+	padding-left: 1em;
+}
+
+header nav ul li:nth-of-type(3){
+
+	justify-content: flex-end;
+	padding-right: 1em;
+	
+}
+
+/* styling buttons left and right side */
+header nav ul li:nth-of-type(3) button:nth-of-type(1){
+
+	padding-right: 1.25em;
+	
+}
+
+header nav ul li:nth-of-type(1) button:nth-of-type(2){
+
+	padding-left: 1.25em;
+	
+}
+
+/* logo styling*/
 header nav a img {
-  height: auto;
-  width: 6em;
-flex-grow: 5;
  
+
+  height: auto;
+  width: 6.5em;
+  align-items: center;
+  flex-grow: 2;
  
 }
 
-/* backgrounf img */
-/* section:nth-of-type(1) img {
+/* background img  */
+ section:nth-of-type(1) img {
   width: 100%;
   height: auto;
   margin: 0;
   padding-top: 3.25em;
   background-repeat: no-repeat;
-} */
+}
+
 
 header nav button{
-
 	border: none;
 	background-color: white;
+	
 }
 
 
 
-main section:nth-of-type(1) video{
-
-	
+/* main section:nth-of-type(1) video{
 	margin-top: 4.3em;
 	height: 43.5em;
 	width:"100%";
-}
+} */
 
 
-/* text on video img */
+/* text on video / img */
 
 section:nth-of-type(1) p {
   position: absolute;
@@ -371,6 +422,8 @@ main section:nth-of-type(3) ul img {
 
 section:nth-of-type(4) {
   position: relative;
+  overflow: hidden;
+
 }
 
 
@@ -378,11 +431,12 @@ section:nth-of-type(4) {
 main section:nth-of-type(4) img:nth-of-type(1) {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  
   padding-top: 10em;
   padding-bottom: 10em;
-  transform: scale(1.5);
+  transform: scale(1.6);
   margin: 0;
+  
   
 }
 
@@ -390,20 +444,23 @@ section:nth-of-type(4) p {
   position: absolute;
   left: 0.75em;
   right: 1em;
-  bottom: 12em;
-  padding: 0em 0.5em 1em 0.5em;
+  bottom: 14em;
+  padding: 0em 0em 1em 0em;
   margin: 0;
 
   text-align: center;
-  font-size: small;
+  font-size: 0.95em;
   color: white;
+  font-weight: 100;
+  line-height: 1.7em;
+  
 }
 
 section:nth-of-type(4) h3 {
   position: absolute;
   left: 0.3em;
   right: 0.3em;
-  bottom: 10em;
+  bottom: 13.5em;
   padding: 0;
   margin: 0em;
   text-align: center;
@@ -416,16 +473,18 @@ section:nth-of-type(4) h3 {
 
 main section:nth-of-type(4) button {
   position: absolute;
-  top: 40em;
-  right: 4em;
-  left: 4em;
+  top: 33em;
+  right: 9em;
+  left: 9em;
 
-  padding: 1.25em;
+  padding: 1em;
   text-transform: uppercase;
   font-weight: 500;
-  color: #353535;
-  border-style: none;
+  background-color: transparent;
+  color: white;
+  border: 0.1em solid white;
   letter-spacing: 0.1em;
+  
 }
 
 
@@ -489,8 +548,24 @@ section:nth-of-type(5) ul li {
 	/* bij de parent het - de ul - het eerste deel */
   
   padding: 1em 0em 1em 2em;
+
+  /* animatie review */
+  animation:scroll 3s linear infinite;
+  width: calc(5em * 4.5);;
 	
   }
+  
+  /* animatie rebiew part 2 */
+  @keyframes scroll{
+	0%{
+	  transform:translateX(0)
+	}
+	
+	100%{
+	  transform:translateX(calc(-5em * 4.5))
+	}
+  }
+  
   
 
   section:nth-of-type(5) ul li p{
@@ -508,20 +583,85 @@ section:nth-of-type(5) ul li {
 footer {
   margin: 0;
   padding: 0;
+  
 
   background-color: var(--color-footer);
   color: var(--color-footer-text);
   position: relative;
 }
 
-footer h3,
-h4 {
+footer h3, h4 {
   font-weight: 50;
   text-transform: uppercase;
   font-size: small;
 }
 
-footer button {
+/* footer button {
   position: absolute;
   right: 1em;
+  
+} */
+
+footer button:nth-of-type(1){
+
+	position: absolute;
+	top: 1.5em;
+	right: 1.25em;
+
+	display: inline-block;
+	border:none;
+	background-color: white;
+	padding: 0 1 0 1;
+	margin: 0;
+	
 }
+
+footer ul {
+	list-style: none;
+	max-height: 20em;
+	margin:0;
+	padding-top: .5em;
+	padding-left: .5em;;
+	padding-bottom: .5em;
+
+	text-transform: uppercase;
+  	font-size: .75em;  
+
+	display: none;
+	overflow: hidden;
+}
+
+footer section ul.open{
+	display: block;
+	
+}
+
+
+footer ul li a{
+	text-decoration: none;
+	  color: white;
+	  text-transform: capitalize;
+	 
+}
+
+footer ul li{
+
+	padding-top: 1em;
+}
+
+footer section h3{
+	margin:0;
+	padding-left: 0.5em ;
+	padding-top: 2em;
+	font-size: .70em;
+}
+
+footer section:nth-of-type(3){
+
+	padding-top: 3em;
+}
+
+
+
+
+
