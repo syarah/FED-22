@@ -433,7 +433,7 @@ Zoals eerder vermeld wil ik voor de volgende les de homepage volledig af en deta
 
 | Linsey     | 
   | ---            |
-  | geen vragen  | 
+  | -  | 
   |  | 
   | ...     
 
