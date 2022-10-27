@@ -390,15 +390,52 @@ ondanks het oefenen in de lessen lukte het me (na een aantal uur coderen en code
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+## home page 
+
+Voor nu is mijn homepage zo goed als af op kleine onderdelen na:
+- styling side menu
+- icoon styling
+- darker filter over promo image
+
+## detail page
+
+Net aan begonnen, nav bar overgenomen en wil voor de volgende les de html af en css basis hebben staan.
+
+## progress
+
+- De oplossingen van jeffrey heb ik gebruik van gemaakt en heb ik werken gekregen in de code. (nav bar styling, buttons nav link zichtbaar, img inplaats van video, carousel styling)
+
+- landing oage --> De website veranderd hun landing page contenu dus om het makkelijker te maken voor mezelf en privacy problemen te voorkomen heb ik een image gebruikt inplaats van video
+
+- De review section --> heb ik met hulp van sanne werkend gekregen. Het heeft een infinite animatie met 3 keyframes en 3 delays. Kan ik uitleggen en uitleg staat in comments
+
+- Javascript --> Javascript kan ik volgen en heb ik werkend gekregen in de code (dropdown en schuifmenu) Kan het uitleggen maar moet soms nog wel spieken voor de juiste structuur
+
+- Plane --> Ik ga voor nu de responsive kant en als er extar tijd over blijft wil ik wat surface plane stukjes toevoegen
+
+
+## komende week
+
+Zoals eerder vermeld wil ik voor de volgende les de homepage volledig af en detail page zo ver mogelijk zodat ik bij de toegankelijkheids test mijn pagina's goed kan testen en derest van de week besteden aan de benodigde verbeteringen
+
+
+
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Syarah      | Nensi          | Lichelle   | cesar        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | css-styling menu en detail-pagina  | scrollen homepage             | side menu en detail-pagina    | html en dropdown list footer    |
+  |  |  |  |  |
   | ...            | ...                | ...          | ...              |
+
+| Linsey     | 
+  | ---            |
+  | geen vragen  | 
+  |  | 
+  | ...     
 
 
   ### Verslag van meeting
