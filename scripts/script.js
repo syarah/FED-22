@@ -22,7 +22,7 @@ var deUlTwee = document.querySelector("main section:nth-of-type(5) ul")
 deButtonTwee.addEventListener("click", toggleLijstje2);
 
 function toggleLijstje2(){ 
-    
+    console.log('asdkjhaksdksja')
     deUlTwee.classList.toggle("openNu");
 
 }
