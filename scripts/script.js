@@ -14,6 +14,19 @@ function toggleLijstje(){
 
 }
 
+
+// Drop down extra info (werkt niet??)
+var deButtonTwee = document.querySelector("main section:nth-of-type(5) button:nth-of-type(1)");
+var deUlTwee = document.querySelector("main section:nth-of-type(5) ul")
+
+deButtonTwee.addEventListener("click", toggleLijstje2);
+
+function toggleLijstje2(){ 
+    
+    deUlTwee.classList.toggle("openNu");
+
+}
+
 // kan ook volgens jeffrey // arrow function / errow operator
 // deButton.addEventListener("click", () =>{
 //     deSection.classList.toggle("open");

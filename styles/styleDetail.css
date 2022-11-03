@@ -1,0 +1,662 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button,
+summary {
+  cursor: pointer;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+  /* startje */
+  --color-text: #111;
+  --color-background: white;
+
+  --color-footer: black;
+  --color-footer-text: white;
+}
+
+/****************/
+/* GENERAL CSS */
+/****************/
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-background);
+  font-family: "Libre Franklin", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/****************/
+/* HOMEPAGE - Section 1 - landing page*/
+/****************/
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+/* buttons verdwijnen achter a:(!!!!!! */
+header button {
+  z-index: 3;
+}
+
+/* z index --> creating hierarchy between images ansd elements in page */
+main {
+  z-index: 1;
+}
+
+section:nth-of-type(1) {
+  position: relative;
+}
+
+/* promo link bovenaan (blijft niet vast zitten - gelukt met hulp van nensi en jeffry)  */
+header > a {
+  background-color: #353535;
+  padding: 0.25em 0em 0.25em 0.5em;
+
+  margin: 0em;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: gray;
+  text-transform: uppercase;
+  font-weight: 100;
+
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: auto;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: smaller;
+}
+
+header > button:nth-of-type(1) {
+  position: fixed;
+  background-color: transparent;
+  padding: 0em;
+  left: 2em;
+  border: none;
+  top: 1em;
+  filter: invert(1);
+}
+
+header > button:nth-of-type(2) {
+  position: fixed;
+  background-color: transparent;
+  padding: 0em;
+  right: 2em;
+  top: 1em;
+  border: none;
+  filter: invert(1);
+}
+
+/* nav bar */
+header nav ul {
+  list-style: none;
+  background-color: white;
+  padding: 1em 0em 0.5em 0em;
+  top: 2.7em;
+  margin: 0em;
+
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.02em solid #575757;
+
+  display: flex;
+}
+
+/* styling items in de navbar */
+header nav ul li {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* positie buttons nav bar left side */
+header nav:nth-of-type(1) ul li:nth-of-type(1) {
+  justify-content: flex-start;
+  padding-left: 1em;
+}
+
+/* positie buttons nav bar left side */
+header nav ul li:nth-of-type(3) {
+  justify-content: flex-end;
+  padding-right: 1em;
+  
+}
+
+/* styling distance profile button */
+
+header nav ul li:nth-of-type(3) button:nth-of-type(1) {
+  padding-right: 1.25em;
+}
+
+/* styling distance search button */
+header nav ul li:nth-of-type(1) button:nth-of-type(2) {
+  padding-left: 1.25em;
+}
+
+/* afstand menu over de pagina */
+nav:nth-of-type(2).openNu {
+  transform: translateX(-15%);
+}
+
+/* logo styling*/
+header nav a img {
+  height: auto;
+  width: 6.5em;
+  align-items: center;
+  flex-grow: 2;
+}
+
+/* background img  */
+section:nth-of-type(1) img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 3.25em;
+  background-repeat: no-repeat;
+}
+
+header nav button {
+  border: none;
+  background-color: white;
+}
+
+nav:nth-of-type(2) {
+  display: grid;
+  position: fixed;
+  padding: 1em;
+  background-color: white;
+  align-content: flex-start;
+  gap: 1em;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  transform: translateX(-100%);
+  transition: 1s;
+  z-index: 400;
+}
+
+nav:nth-of-type(2) ul {
+  padding-left: 1em;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav:nth-of-type(2) ul li {
+  line-height: 2em;
+  padding-left: 5em;
+}
+
+nav:nth-of-type(2) button {
+  background-color: lightblue;
+}
+
+nav:nth-of-type(2) ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+/****************/
+/* HOMEPAGE - Main - Section 1 - Landingpage */
+/****************/
+
+/* <!-- STYLING Section 1: above landingpage line --> */
+
+section:nth-of-type(1) {
+  display: flex;
+  position: relative;
+  top: 5em;
+
+  flex-direction: column;
+}
+
+section:nth-of-type(1) img {
+  order: -1;
+  background-color: #efeae4;
+}
+
+section:nth-of-type(1) h1 {
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 2em 0 0.5em 0.5em;
+  margin: 0;
+}
+
+section:nth-of-type(1) h2 {
+  font-size: 1em;
+  font-weight: 100;
+  padding: 0 0 0 0.8em;
+  margin: 0;
+}
+
+section:nth-of-type(1) h3:nth-of-type(1) {
+  font-size: 1em;
+  font-weight: 100;
+  padding: 0 0 0 0.8em;
+  margin: 0;
+  position: absolute;
+
+  top: 24.8em;
+  left: 15.7em;
+  color: #d54d4d;
+}
+
+section:nth-of-type(1) h3:nth-of-type(2) {
+  font-size: 1em;
+  font-weight: 100;
+  padding: 0 0 0 0.8em;
+  margin: 0;
+  position: absolute;
+
+  top: 24.8em;
+  left: 19.3em;
+  text-decoration: line-through;
+}
+
+section:nth-of-type(1) h4 {
+  font-size: 0.8em;
+  font-weight: 100;
+  order: -2;
+  position: absolute;
+  top: 27em;
+  padding: 0 0 0 1em;
+}
+
+section:nth-of-type(1) p{
+
+    position:absolute;
+}
+
+section:nth-of-type(1) p:nth-of-type(1){
+
+    top: 3em;
+    left: 1em;
+    color: white;
+    background-color: #d72e3f;
+    padding: 0.3em;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+section:nth-of-type(1) p:nth-of-type(2){
+
+    top: 5.3em;
+    left: 1em;
+    color: black;
+    background-color: white;
+    padding: 0.3em;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+
+
+section:nth-of-type(1) button:nth-of-type(1){
+
+    position: absolute;
+    top: 21em;
+    left: 25em;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: solid lightgray 0.1em;
+    
+}
+
+section:nth-of-type(1) button:nth-of-type(1) img{
+
+    padding: 0.9em 0.9em 0.6em 0.9em;
+    margin: 0;
+    background-color: white;
+}
+
+
+section:nth-of-type(1){
+    border-bottom: lightgrey solid 0.1em;
+    padding-bottom: 1em;
+
+}
+
+
+/* <!-- STYLING Section 1.2: under landingpage line --> */
+
+section:nth-of-type(2){
+
+    padding: 6.5em 0 0em 1em;
+    margin: 0;
+}
+
+section:nth-of-type(2) h3{
+
+   font-size: 1em;
+   font-weight: 500;
+   padding-bottom: 0.6em;
+   margin: 0;
+}
+
+section:nth-of-type(2) button{
+
+    padding: 0.8em;
+    margin: 0 0 0.7em 0;
+    font-size: 1em;
+    background-color: white;
+    border: solid lightgray 0.1em;
+   
+}
+
+section:nth-of-type(2) h4{
+
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0.5em 0 0.8em 0;
+    margin: 0;
+ }
+
+
+
+/* Color Carousel (SANNE VOORBEELD) */
+section:nth-of-type(3) ul{
+    
+    margin: 0;
+    padding: 0 0 0 1em;
+    list-style: none;
+  
+    display: flex;
+    gap: 1em;
+  
+    overflow-x: auto;
+  
+    scroll-snap-type: x mandatory;
+    /* bij de kinderen - de li - het tweede deel */
+  
+    overscroll-behavior-x: contain;
+    /* zodat de back functie niet wordt getriggerd bij terug-swipen */
+  }
+  
+  /* een card in de carousel */
+  section:nth-of-type(2) li {
+    /* als flex-kind */
+    flex-shrink: 0; /* maakt geen verschil */
+  
+    /* als flex-parent */
+    display: flex;
+    flex-direction: column;
+  
+    scroll-snap-align: center;
+    /* bij de parent het - de ul - het eerste deel */
+  
+    padding: 1em;
+  }
+
+/* styling elements in a carousel card */
+
+ section:nth-of-type(3) img {
+  background-color: white;
+  height: auto;
+  width: 5em;
+  padding: 0em;
+  margin:0.5em 0 0.5em 0;
+  
+  
+}
+
+section:nth-of-type(3) button {
+    background-color: white;
+    border: solid 0.1em lightgray;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+
+  /* styling add to cart button */
+
+  section:nth-of-type(4) {
+   position: relative;
+    
+  }
+  section:nth-of-type(4) button {
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+
+    position: absolute;
+    padding: 1em 12em 1em 11em;
+    left: 0.5em;
+    bottom: 19.5em;
+    
+  }
+
+   /* styling extra info */
+  section:nth-of-type(4) h5:nth-of-type(1){
+
+    padding: 10em 0 0 1em;
+    margin: 0;
+    font-size: 0.7em;
+    font-weight: 100;
+    
+  }
+
+
+  section:nth-of-type(4) h5:nth-of-type(2){
+
+    padding: 1em 0 0 1em;
+    margin: 0;
+    font-size: 0.7em;
+    font-weight: 700;
+  }
+
+  section:nth-of-type(4) p{
+
+    padding: 2em 0 0 1em;
+    margin: 0;
+    
+  }
+
+  section:nth-of-type(4) p:nth-of-type(1){
+
+    padding: 2em 0.2em 0 0.7em;
+    margin: 0;
+    
+  }
+
+
+  section:nth-of-type(4) p:nth-of-type(2){
+
+    padding: 2em 0.2em 3em 0.7em;
+    margin-bottom: 1em;
+    
+  }
+
+
+  /* styling drop down extra info */
+
+  section:nth-of-type(5){
+
+    position: relative;
+    border-bottom: lightgray 0.1em solid;
+    border-top:lightgray 0.1em solid ;
+}
+
+
+section:nth-of-type(5) button:nth-of-type(1){
+    position: absolute;
+	top: 1.5em;
+	right: 1.25em;
+
+	display: inline-block;
+	border:none;
+	background-color: white;
+	padding: 0 1 0 1;
+	margin: 0;
+
+}
+  section:nth-of-type(5) ul{
+    list-style: none;
+	max-height: 20em;
+    padding-top: .5em;
+	padding-left: .5em;;
+	padding-bottom: .5em;
+
+	text-transform: uppercase;
+  	font-size: .75em;  
+    display: none;
+	overflow: hidden;
+  }
+
+
+  section:nth-of-type(5) ul.openNu{
+    display: block;
+  }
+
+  section:nth-of-type(5) h3{
+
+    padding: 0.5em 0em 0.5em 0.7em;
+    font-weight: 100;
+    font-size: 1em;
+    
+  }
+
+
+
+  Section:nth-of-type(6) h1 {
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 2em;
+  }
+  
+
+
+Section:nth-of-type(6) h2 {
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5em;
+    margin: 0em;
+    text-align: center;
+    padding-bottom: 3em;
+    
+  }
+  
+  
+
+/****************/
+/* HOMEPAGE - Footer */
+/****************/
+/* 
+footer {
+    margin: 0;
+    padding: 0;
+    
+    
+    background-color: var(--color-footer);
+    color: var(--color-footer-text);
+    position: relative;
+    margin-top: 5em;
+  }
+  
+  footer h3, h4 {
+    font-weight: 50;
+    text-transform: uppercase;
+    font-size: small;
+  }
+   */
+/* footer button {
+    position: absolute;
+    right: 1em;
+    
+  } */
+/*   
+  footer button:nth-of-type(1){
+  
+      position: absolute;
+      top: 1.5em;
+      right: 1.25em;
+  
+      display: inline-block;
+      border:none;
+      background-color: white;
+      padding: 0 1 0 1;
+      margin: 0;
+      
+  }
+  
+  footer ul {
+      list-style: none;
+      max-height: 20em;
+      margin:0;
+      padding-top: .5em;
+      padding-left: .5em;;
+      padding-bottom: .5em;
+  
+      text-transform: uppercase;
+        font-size: .75em;  
+  
+      display: none;
+      overflow: hidden;
+  }
+  
+  footer section ul.open{
+      display: block;
+      
+  }
+  
+  
+  footer ul li a{
+      text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+       
+  }
+  
+  footer ul li{
+  
+      padding-top: 1em;
+  }
+  
+  footer section h3{
+      margin:0;
+      padding-left: 0.5em ;
+      padding-top: 2em;
+      font-size: .70em;
+  }
+  
+  footer section:nth-of-type(3){
+  
+      padding-top: 3em;
+  }
+   */

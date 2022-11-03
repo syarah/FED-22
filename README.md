@@ -360,9 +360,18 @@ ondanks het oefenen in de lessen lukte het me (na een aantal uur coderen en code
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+ 
+ ### TABBEN
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+- nav gaat goed
+
+- over de image verdwijnt
+
+- met 1 tab naar shop nu
+
+- slaat alles over tot learn more —> kijken naar tabben (eigen laptop werkt het wel) alles word niet geselecteerd
+
+- states moeten er nog in
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -441,10 +450,17 @@ Zoals eerder vermeld wil ik voor de volgende les de homepage volledig af en deta
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Voor srp --> hide scrollbar in andere browsers 
+  - kijk naar aspect ratio css --> button ten groote van de tekst (dropdown)
+
+  - Dropdown list demo Sanne --> 
+
+  - aria label op linkjes waar geen tekst op staan
+
+  - z index --> in de side menu zodat pijlen achter blijven (werk in stapjes van 100)
+
+  - toegankelijkheids puntjes
+  
 
 </details>
 
