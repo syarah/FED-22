@@ -757,7 +757,7 @@ main section:nth-of-type(13) {
  background-color:#e6dfd6;
 }
 
-main section:nth-of-type(13) p:nth-of-type(1),
+/* main section:nth-of-type(13) p:nth-of-type(1),
 main section:nth-of-type(13) p:nth-of-type(2),
 main section:nth-of-type(13) p:nth-of-type(3),
 main section:nth-of-type(13) p:nth-of-type(4)
@@ -766,7 +766,7 @@ main section:nth-of-type(13) img{
 
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 main section:nth-of-type(13) p:nth-of-type(5),
@@ -816,17 +816,18 @@ main section:nth-of-type(13) p:nth-of-type(4){
 
     padding: 0 0 1em 0.9em;
     font-size: 0.9em;
-
- 
 }
-
 
 main section:nth-of-type(13) img:first-of-type{
 
     width: 7em;
     padding: 0 0 0 1em;
-    
 }
+
+
+
+
+
 
 
 /****************/
