@@ -1,40 +1,4 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 
-button,
-summary {
-  cursor: pointer;
-}
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-  /* startje */
-  --color-text: #111;
-  --color-background: white;
-
-  --color-footer: black;
-  --color-footer-text: white;
-}
-
-/****************/
-/* GENERAL CSS */
-/****************/
-
-body {
-  color: var(--color-text);
-  background-color: var(--color-background);
-  font-family: "Libre Franklin", sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
 /****************/
 /* HOMEPAGE - Section 1 - landing page*/
@@ -61,12 +25,12 @@ section:nth-of-type(1) {
 
 /* promo link bovenaan (blijft niet vast zitten - gelukt met hulp van nensi en jeffry)  */
 header > a {
-  background-color: #353535;
+background-color:var(--color-headerBanner);
   padding: 0.25em 0em 0.25em 0.5em;
   margin: 0em;
-  color: white;
+  color: var(--color-backgroundW);
   text-decoration: underline;
-  text-decoration-color: gray;
+  text-decoration-color: var(--color-underlineBanner);
   text-transform: uppercase;
   font-weight: 100;
   position: fixed;
@@ -104,14 +68,14 @@ header > button:nth-of-type(2) {
 /* nav bar */
 header nav ul {
   list-style: none;
-  background-color: white;
+  background-color:var(--color-backgroundW);
   padding: 1em 0em 0.5em 0em;
   top: 2.7em;
   margin: 0em;
 
   position: fixed;
   width: 100%;
-  border-bottom: 0.02em solid #575757;
+  border-bottom: 0.02em solid var(--color-underlineMain);
 
   display: flex;
 }
@@ -172,14 +136,14 @@ section:nth-of-type(1) img {
 
 header nav button {
   border: none;
-  background-color: white;
+  background-color: var(--color-backgroundW);
 }
 
 nav:nth-of-type(2) {
   display: grid;
   position: fixed;
   padding: 1em;
-  background-color: white;
+  background-color: var(--color-backgroundW);
   align-content: flex-start;
   gap: 1em;
 
@@ -233,7 +197,7 @@ main section:nth-of-type(1) {
 
 main section:nth-of-type(1) img {
   order: 1;
-  background-color: #efeae4;
+  background-color: var(--color-imgBackgroundMain);
 }
 
 main section:nth-of-type(1) h1 {
@@ -253,11 +217,11 @@ main section:nth-of-type(1) p:nth-of-type(1) {
   order: 4;
 }
 
-main section:nth-of-type(1) p:nth-of-type(2) {
+/* main section:nth-of-type(1) p:nth-of-type(2) {
 }
 
 main section:nth-of-type(1) p:nth-of-type(3) {
-}
+} */
 
 main section:nth-of-type(1) > p:nth-of-type(2) {
   font-size: 0.8em;
@@ -278,8 +242,8 @@ section:nth-of-type(1) p:nth-of-type(6) {
 main section:nth-of-type(1) > p:nth-of-type(3) {
   top: 3em;
   left: 1em;
-  color: white;
-  background-color: #d72e3f;
+  color: var(--color-backgroundW);
+  background-color:var(--color-saveMoney);
   padding: 0.3em;
   font-size: 0.8em;
   text-transform: capitalize;
@@ -289,8 +253,8 @@ main section:nth-of-type(1) > p:nth-of-type(3) {
 main section:nth-of-type(1) > p:nth-of-type(4) {
   top: 5.3em;
   left: 1em;
-  color: black;
-  background-color: white;
+  color: var(--color-backgroundB);
+  background-color: var(--color-backgroundW);
   padding: 0.3em;
   font-size: 0.8em;
   text-transform: capitalize;
@@ -302,21 +266,21 @@ main section:nth-of-type(1) button:nth-of-type(1) {
   height: 3.5em;
   bottom: 10.5em;
   right: 1em;
-  background-color: white;
+  background-color: var(--color-backgroundW);
   margin: 0;
   padding: 0;
-  border: solid lightgray 0.1em;
+  border: solid var(--color-borderButtons) 0.1em;
   position: absolute;
 }
 
 main section:nth-of-type(1) button:nth-of-type(1) img {
   padding: 0.9em 0.9em 0.6em 0.9em;
   margin: 0;
-  background-color: white;
+  background-color: var(--color-backgroundW);
 }
 
 main section:nth-of-type(1) {
-  border-bottom: lightgrey solid 0.1em;
+  border-bottom: var(--color-borderButtons) solid 0.1em;
   padding-bottom: 1em;
   position: relative;
 }
@@ -346,8 +310,8 @@ main section:nth-of-type(2) button {
   padding: 0.8em;
   margin: 0 0 0.7em 0;
   font-size: 1em;
-  background-color: white;
-  border: solid lightgray 0.1em;
+  background-color: var(--color-backgroundW);
+  border: solid var(--color-borderButtons) 0.1em;
 }
 
 /* Color Carousel (SANNE VOORBEELD) */
@@ -386,7 +350,7 @@ main section:nth-of-type(2) li {
 /* styling elements in a carousel card */
 
 main section:nth-of-type(3) img {
-  background-color: white;
+  background-color: var(--color-backgroundW);
   height: auto;
   width: 5em;
   padding: 0em;
@@ -394,8 +358,8 @@ main section:nth-of-type(3) img {
 }
 
 main section:nth-of-type(3) button {
-  background-color: white;
-  border: solid 0.1em lightgray;
+  background-color: var(--color-backgroundW);
+  border: solid 0.1em var(--color-borderButtons);
   padding: 0;
   margin: 0;
 }
@@ -407,8 +371,8 @@ main section:nth-of-type(4) {
   padding: 1em;
 }
 main section:nth-of-type(4) button {
-  background-color: black;
-  color: white;
+  background-color: var(--color-backgroundB);
+  color: var(--color-backgroundW);
   text-transform: capitalize;
   border: none;
   padding: 1em 2.5em;
@@ -450,8 +414,8 @@ main section:nth-of-type(4) p:nth-of-type(2) {
 
 main section:nth-of-type(5) {
   position: relative;
-  border-bottom: lightgray 0.1em solid;
-  border-top: lightgray 0.1em solid;
+  border-bottom: var(--color-borderButtons) 0.1em solid;
+  border-top: var(--color-borderButtons) 0.1em solid;
 }
 
 main section:nth-of-type(5) button:nth-of-type(1) {
@@ -461,7 +425,7 @@ main section:nth-of-type(5) button:nth-of-type(1) {
 
   display: inline-block;
   border: none;
-  background-color: white;
+  background-color: var(--color-backgroundW);
   padding: 0 1 0 1;
   margin: 0;
 }
@@ -490,7 +454,7 @@ main section:nth-of-type(5) h2 {
 
 main section:nth-of-type(6) {
   position: relative;
-  border-bottom: lightgray 0.1em solid;
+  border-bottom: var(--color-borderButtons) 0.1em solid;
   border-top: transparent 0.1em solid;
 }
 
@@ -501,7 +465,7 @@ main section:nth-of-type(6) button:nth-of-type(1) {
 
   display: inline-block;
   border: none;
-  background-color: white;
+  background-color: var(--color-backgroundW);
   padding: 0 1 0 1;
   margin: 0;
 }
@@ -600,7 +564,7 @@ main section:nth-of-type(9) {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  background-color: #efeae4;
+  background-color: var(--color-imgBackgroundMain);
 }
 
 main section:nth-of-type(9) img:nth-of-type(1) {
@@ -644,7 +608,7 @@ main section:nth-of-type(9) p:nth-of-type(2) {
 
 main section:nth-of-type(10) {
 
-    background-color: #e6dfd6;
+    background-color: var(--color-imgBackgroundDark);
     padding: 5em 0 0 1em;
 }
 
@@ -670,9 +634,9 @@ main section:nth-of-type(11){
     display: flex;
     
     padding: 1em 0 1em 1em;
-    background-color:#e6dfd6 ;
-    border-top: #c6bebe solid 0.15em;
-    border-bottom: #c6bebe solid 0.15em;
+    background-color:var(--color-imgBackgroundDark) ;
+    border-top: var(--color-borderlineRev) solid 0.15em;
+    border-bottom: var(--color-borderlineRev) solid 0.15em;
 }
 
 
@@ -719,7 +683,7 @@ main section:nth-of-type(12) {
     display: flex;
     justify-content: flex-end;
     gap: 1em;
-    background-color:#e6dfd6;
+    background-color:var(--color-imgBackgroundDark);
   
 }
 main section:nth-of-type(12) h2:nth-of-type(2){
@@ -743,7 +707,7 @@ main section:nth-of-type(13) {
 
  display: grid;
  grid-template-columns: 42% 7% 12% 16% 1fr; /* CREDITS NAAR CESAR */
- background-color:#e6dfd6;
+ background-color:var(--color-imgBackgroundDark);
 }
 
 main section:nth-of-type(13) p:nth-of-type(1),
@@ -872,7 +836,7 @@ footer section:nth-of-type(1) button:nth-of-type(1) {
 
   display: inline-block;
   border: none;
-  background-color: white;
+  background-color: var(--color-backgroundW);
   padding: 0 1 0 1;
   margin: 0;
 }
@@ -894,7 +858,7 @@ footer section:nth-of-type(1) ul {
 
 footer ul li a {
   text-decoration: none;
-  color: white;
+  color: var(--color-backgroundW);
   text-transform: capitalize;
 }
 

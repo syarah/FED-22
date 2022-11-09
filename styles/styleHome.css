@@ -1,0 +1,646 @@
+/****************/
+/* HOMEPAGE - Section 1 - landing page*/
+/****************/
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+/* buttons verdwijnen achter a:(!!!!!! */
+header button {
+  z-index: 3;
+}
+
+/* z index --> creating hierarchy between images ansd elements in page */
+main {
+  z-index: 1;
+}
+
+section:nth-of-type(1) {
+  position: relative;
+}
+
+/* promo link bovenaan (blijft niet vast zitten - gelukt met hulp van nensi en jeffry)  */
+header > a {
+  background-color: var(--color-headerBanner);
+  padding: 0.25em 0em 0.25em 0.5em;
+
+  margin: 0em;
+  color: var(--color-backgroundW);
+  text-decoration: underline;
+  text-decoration-color: var(--color-underlineBanner);
+  text-transform: uppercase;
+  font-weight: 100;
+
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: auto;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: smaller;
+}
+
+header > button:nth-of-type(1) {
+  position: fixed;
+  background-color: transparent;
+  padding: 0em;
+  left: 2em;
+  border: none;
+  top: 1em;
+  filter: invert(1);
+}
+
+header > button:nth-of-type(2) {
+  position: fixed;
+  background-color: transparent;
+  padding: 0em;
+  right: 2em;
+  top: 1em;
+  border: none;
+  filter: invert(1);
+}
+
+/* nav bar */
+header nav ul {
+  list-style: none;
+  background-color: var(--color-backgroundW);
+  padding: 1em 0em 0.5em 0em;
+  top: 2.7em;
+  margin: 0em;
+
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.02em solid var(--color-underlineMain);
+
+  display: flex;
+}
+
+/* styling items in de navbar */
+header nav ul li {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* positie buttons nav bar left side */
+header nav:nth-of-type(1) ul li:nth-of-type(1) {
+  justify-content: flex-start;
+  padding-left: 1em;
+}
+
+/* positie buttons nav bar left side */
+header nav ul li:nth-of-type(3) {
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+
+/* styling distance profile button */
+
+header nav ul li:nth-of-type(3) button:nth-of-type(1) {
+  padding-right: 1.25em;
+}
+
+/* styling distance search button */
+header nav ul li:nth-of-type(1) button:nth-of-type(2) {
+  padding-left: 1.25em;
+}
+
+/* afstand menu over de pagina */
+nav:nth-of-type(2).openNu {
+  transform: translateX(-15%);
+}
+
+/* logo styling*/
+header nav a img {
+  height: auto;
+  width: 6.5em;
+  align-items: center;
+  flex-grow: 2;
+}
+
+/* background img  */
+section:nth-of-type(1) img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 3.25em;
+  background-repeat: no-repeat;
+}
+
+header nav button {
+  border: none;
+  background-color: var(--color-backgroundW);
+}
+
+nav:nth-of-type(2) {
+  display: grid;
+  position: fixed;
+  padding: 1em;
+  background-color: var(--color-background);
+  align-content: flex-start;
+  gap: 1em;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  transform: translateX(-100%);
+  transition: 1s;
+  z-index: 400;
+}
+
+nav:nth-of-type(2) ul {
+  padding-left: 1em;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav:nth-of-type(2) ul li {
+  line-height: 2em;
+  padding-left: 5em;
+}
+
+nav:nth-of-type(2) button {
+  background-color: lightskyblue;
+}
+
+nav:nth-of-type(2) ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+/* main section:nth-of-type(1) video{
+      margin-top: 4.3em;
+      height: 43.5em;
+      width:"100%";
+  } */
+
+/* text on video / img */
+
+section:nth-of-type(1) p {
+  position: absolute;
+  left: 0.75em;
+  right: 1em;
+  bottom: 33em;
+  padding: 0em 0.5em 1em 0.5em;
+  margin: 0;
+
+  text-align: center;
+  font-size: small;
+  text-transform: uppercase;
+  color: var(--color-backgroundW);
+}
+
+section:nth-of-type(1) h1 {
+  position: absolute;
+  left: 0.3em;
+  right: 0.3em;
+  bottom: 8em;
+  padding: 0;
+  margin: 0em;
+  text-align: center;
+
+  font-size: 2.5em;
+  color: var(--color-backgroundW);
+  font-weight: 600;
+}
+
+main section:nth-of-type(1) button {
+  position: absolute;
+  top: 38em;
+  right: 4em;
+  left: 4em;
+
+  padding: 1.25em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-textButtonMain);
+  border-style: none;
+  letter-spacing: 0.1em;
+}
+
+/***********************/
+/* HOMEPAGE - SECTION 2 */
+/************************/
+
+/* section 2 - carousel  - discover our products*/
+
+section:nth-of-type(2) ul {
+  /* BRON - SANNE VOORBEELD LES */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  gap: 1em; /* maakt geen verschil */
+
+  overflow-x: auto;
+
+  scroll-snap-type: x mandatory;
+  /* bij de kinderen - de li - het tweede deel */
+
+  overscroll-behavior-x: contain;
+  /* zodat de back functie niet wordt getriggerd bij terug-swipen */
+}
+
+/* een card in de carousel */
+section:nth-of-type(2) li {
+  /* als flex-kind */
+  flex-shrink: 0; /* maakt geen verschil */
+
+  /* als flex-parent */
+  display: flex;
+  flex-direction: column;
+
+  scroll-snap-align: center;
+  /* bij de parent het - de ul - het eerste deel */
+
+  padding: 1em;
+}
+
+main section h2:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  font-weight: 450;
+  margin: 0;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+main section:nth-of-type(2) a {
+  text-decoration: none;
+}
+
+/* contents of a carousel card */
+main section:nth-of-type(2) h3,
+main section:nth-of-type(2) p {
+  margin: 0 1em 0.5em 0em;
+  color: var(--color-text);
+}
+
+/* styling elements in a carousel card */
+main section:nth-of-type(2) ul h3 {
+  font-weight: 100;
+}
+
+main section:nth-of-type(2) ul p:nth-of-type(0) {
+  font-weight: bold;
+}
+
+main section:nth-of-type(2) ul p:nth-of-type(2) {
+  font-weight: 200;
+  font-size: small;
+}
+
+main section:nth-of-type(2) img {
+  background-color: var(--color-imgBackgroundMain);
+
+  height: auto;
+  width: 15em;
+  padding: 1em;
+}
+
+/***********************/
+/* HOMEPAGE - SECTION 3 */
+/************************/
+
+/* SECTION 3 - Carousel 2 STEPS */
+
+main > h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+  padding: 4.5em 1em 2em 1em;
+}
+
+main section:nth-of-type(3) a {
+  text-decoration: none;
+}
+
+main section:nth-of-type(3) {
+  display: flex;
+}
+
+section:nth-of-type(3) ul {
+  /* BRON - SANNE VOORBEELD LES */
+  margin: 0;
+  padding: 0em;
+  padding-left: 1em;
+  list-style: none;
+
+  display: flex;
+  gap: 1em; /* maakt geen verschil */
+
+  overflow-x: auto;
+
+  scroll-snap-type: x mandatory;
+  /* bij de kinderen - de li - het tweede deel */
+
+  overscroll-behavior-x: contain;
+  /* zodat de back functie niet wordt getriggerd bij terug-swipen */
+}
+
+/* een card in de carousel */
+section:nth-of-type(3) li {
+  /* als flex-kind */
+  flex-shrink: 0; /* maakt geen verschil */
+
+  /* als flex-parent */
+  display: flex;
+  flex-direction: column;
+
+  scroll-snap-align: center;
+  /* bij de parent het - de ul - het eerste deel */
+
+  padding: 0;
+}
+
+/* de inhoud van een card */
+main section:nth-of-type(3) h4,
+main section:nth-of-type(3) p {
+  color: var(--color-text);
+}
+
+main section:nth-of-type(3) ul h4 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+main section:nth-of-type(3) ul li p {
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+
+main section:nth-of-type(3) ul img {
+  height: auto;
+  width: 8em;
+  padding: 1em;
+  order: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/****************/
+/* HOMEPAGE - SECTION 4 - PROMO image */
+/****************/
+
+section:nth-of-type(4) {
+  position: relative;
+  overflow: hidden;
+}
+
+main section:nth-of-type(4) img:nth-of-type(1) {
+  height: 100%;
+  width: 100%;
+
+  padding-top: 10em;
+  padding-bottom: 10em;
+  transform: scale(1.6);
+  margin: 0;
+}
+
+section:nth-of-type(4) p {
+  position: absolute;
+  left: 0.75em;
+  right: 1em;
+  bottom: 14em;
+  padding: 0em 0em 1em 0em;
+  margin: 0;
+
+  text-align: center;
+  font-size: 0.95em;
+  color: var(--color-backgroundW);
+  font-weight: 100;
+  line-height: 1.7em;
+}
+
+section:nth-of-type(4) h3 {
+  position: absolute;
+  left: 0.3em;
+  right: 0.3em;
+  bottom: 13.5em;
+  padding: 0;
+  margin: 0em;
+  text-align: center;
+
+  color: var(--color-backgroundW);
+  font-weight: 500;
+  font-size: 1.8em;
+}
+
+main section:nth-of-type(4) button {
+  position: absolute;
+  top: 33em;
+  right: 9em;
+  left: 9em;
+
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: transparent;
+  color: var(--color-backgroundW);
+  border: 0.1em solid var(--color-backgroundW);
+  letter-spacing: 0.1em;
+}
+
+/****************/
+/* HOMEPAGE - SECTION 5 - Community - HULP VAN SANNE */
+/****************/
+
+section:nth-of-type(5) {
+  background-color: var(--color-backgroundLight);
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+}
+
+section:nth-of-type(5) h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+section:nth-of-type(5) ul {
+  position: relative;
+
+  margin: 1em;
+  padding: 0em;
+  /* padding-left: 1em; */
+
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 100%;
+  /* gap: 1em;  */
+
+  /* overflow-x: auto; */
+  overflow-x: hidden;
+
+  /* scroll-snap-type: x mandatory; */
+  /* bij de kinderen - de li - het tweede deel */
+
+  /* overscroll-behavior-x: contain; */
+  /* zodat de back functie niet wordt getriggerd bij terug-swipen */
+}
+
+section:nth-of-type(5) ul li {
+  background-color: var(--color-imgBackgroundMain);
+  list-style: none;
+
+  /* als flex-kind */
+  /* flex-shrink: 0;  */
+  grid-column-start: 1;
+  grid-row-start: 1;
+
+  /* als flex-parent */
+  display: flex;
+  flex-direction: column;
+
+  scroll-snap-align: center;
+  /* bij de parent het - de ul - het eerste deel */
+
+  padding: 1em 0em 1em 2em;
+
+  /* ANIMATIE MET HULP SANNE */
+
+  /* animatie review */
+  animation: scroll 9s linear infinite;
+  /* width: calc(5em * 4.5); */
+  width: 100%;
+}
+
+/* animatie rebiew part 2 */
+@keyframes scroll {
+  /* van 0 tot 50 procent begint rechts van scherm */
+  0%,
+  50% {
+    transform: translateX(100%);
+  }
+
+  /* van 50 tot 67 onderweg naar het midden en blijft daar staan  */
+  /* van 67 tot 83 door naar linkerkant van het scherm */
+  67%,
+  83% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    /* van 83 tot 100 volledig links van het scherm en sluit stiekem weer aan in de rij */
+    /* transform:translateX(calc(-5em * 4.5)); */
+    transform: translateX(-100%);
+  }
+}
+
+section:nth-of-type(5) ul li:nth-of-type(1) {
+  animation-delay: 0s;
+  /* background-color: #f006; */
+}
+
+section:nth-of-type(5) ul li:nth-of-type(2) {
+  animation-delay: -3s;
+  /* background-color: #0f06; */
+}
+
+section:nth-of-type(5) ul li:nth-of-type(3) {
+  animation-delay: -6s;
+  /* background-color: #ff06; */
+}
+
+section:nth-of-type(5) ul li p {
+  font-size: small;
+  padding-right: 2em;
+}
+
+/****************/
+/* HOMEPAGE - Footer */
+/****************/
+
+footer {
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--color-footer);
+  color: var(--color-footer-text);
+  position: relative;
+}
+
+footer h3,
+h4 {
+  font-weight: 50;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+/* footer button {
+    position: absolute;
+    right: 1em;
+    
+  } */
+
+footer button:nth-of-type(1) {
+  position: absolute;
+  top: 1.5em;
+  right: 1.25em;
+
+  display: inline-block;
+  border: none;
+  background-color: var(--color-backgroundW);
+  padding: 0 1 0 1;
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  max-height: 20em;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+
+  text-transform: uppercase;
+  font-size: 0.75em;
+
+  display: none;
+  overflow: hidden;
+}
+
+footer section ul.open {
+  display: block;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--color-backgroundW);
+  text-transform: capitalize;
+}
+
+footer ul li {
+  padding-top: 1em;
+}
+
+footer section h3 {
+  margin: 0;
+  padding-left: 0.5em;
+  padding-top: 2em;
+  font-size: 0.7em;
+}
+
+footer section:nth-of-type(3) {
+  padding-top: 3em;
+}
