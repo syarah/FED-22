@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  surface plane (voor nu)
+  responsive
  
 </details>
 
@@ -412,15 +412,15 @@ Net aan begonnen, nav bar overgenomen en wil voor de volgende les de html af en 
 
 ## progress
 
-- De oplossingen van jeffrey heb ik gebruik van gemaakt en heb ik werken gekregen in de code. (nav bar styling, buttons nav link zichtbaar, img inplaats van video, carousel styling)
+- De oplossingen van jeffrey heb ik gebruik van gemaakt en heb ik werkend gekregen in de code. (nav bar styling, buttons nav link zichtbaar, img inplaats van video, carousel styling)
 
-- landing oage --> De website veranderd hun landing page contenu dus om het makkelijker te maken voor mezelf en privacy problemen te voorkomen heb ik een image gebruikt inplaats van video
+- landing page --> De website veranderd hun landing page contenu dus om het makkelijker te maken voor mezelf en privacy problemen te voorkomen heb ik een image gebruikt inplaats van video
 
 - De review section --> heb ik met hulp van sanne werkend gekregen. Het heeft een infinite animatie met 3 keyframes en 3 delays. Kan ik uitleggen en uitleg staat in comments
 
 - Javascript --> Javascript kan ik volgen en heb ik werkend gekregen in de code (dropdown en schuifmenu) Kan het uitleggen maar moet soms nog wel spieken voor de juiste structuur
 
-- Plane --> Ik ga voor nu de responsive kant en als er extar tijd over blijft wil ik wat surface plane stukjes toevoegen
+- Plane --> Ik ga voor nu de responsive kant en als er extra tijd over blijft wil ik wat surface plane stukjes toevoegen
 
 
 ## komende week
@@ -476,17 +476,64 @@ Zoals eerder vermeld wil ik voor de volgende les de homepage volledig af en deta
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
+  ## Homepage final
+<img src="readme-images/progressie/voortgangEind/homepage/home_img1.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/homepage/home_img2.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/homepage/home_img3.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/homepage/home_img4.png" width="300px" alt="uitomst opdracht 1">
+
+<img src="readme-images/progressie/voortgangEind/homepage/hoem_full1.png.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/homepage/home_full2.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/homepage/home_full3.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/homepage/home_full4.png" width="375px" alt="uitomst opdracht 1">
+
+
+## Detailpage final
+<img src="readme-images/progressie/voortgangEind/detailpage/det_img1.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_img2.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_img3.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_img4.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_img5.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_img6.png" width="300px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_img7.png" width="300px" alt="uitomst opdracht 1">
+  
+<img src="readme-images/progressie/voortgangEind/detailpage/det_fullImg11.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_fullImg22.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_fullImg3.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_fullImg4.png" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/progressie/voortgangEind/detailpage/det_fullImg5.png" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Kort samengevat heb ik van frontend vooral de basis volledig onder de knie en kan ik vrij goed overweg met html css en wat minimale javascript.
+  Richting het einde van de eerste pagina had ik alle onderelen die ik mogelijk nodig had wel gezien en veel aan gesleuteld dus de tweede pagina verliep ook wat soepeler op wat kleine punten na (grid en javascript werkend krijgen op de tweede pagina)
+
+  Ook kan ik nieuwe dingen van de uitleg van sanne of jeffrey ook sneller begrijpen en herkennen waar ze het precies over hebben als ik hulp van ze krijg met de code.
+ 
+  ## In de laatste fase van frontend heb ik:
+  
+  - Eindelijk begrepen hoe grid echt werkt en hoe ik het kan toepassen
+  - Hoe je repsonsiveness voor je website moet aanpakken dmv media queries, width, flex etc
+  - Geleerd hoe ik de inspector moet gebruiken en lezen
+  
+  
+
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  - Eerste poging grid
+  <img src="readme-images/progressie/voortgangEind/detailpage/det_grid1.png" width="375px" alt="bummer">
+  <img src="readme-images/progressie/voortgangEind/detailpage/det_grid2.png" width="375px" alt="bummer">
+
+  - Opgelost grid met sanne
+  <img src="readme-images/progressie/voortgangEind/detailpage/grid_final.png"width="375px" alt="bummer">
+
+kleine onderdelen waar ik later tegenaan liep waren grid (niet veel mee gewerkt omdat flexbox prima ging), animaties met delays (uiteindelijk wat complex maar te begrijpen) en responsive maken (mijn css code beet me terug doordat ik veel position: absolute had gebruikt). Daardoor moest er veel stuk / opnieuw gemaalt worden met veel hulp van jeffrey
+
+
 </details>
 
 
@@ -504,12 +551,10 @@ Zoals eerder vermeld wil ik voor de volgende les de homepage volledig af en deta
 
   2. Video homepage - https://eu.waterdrop.com en https://cdn.shopify.com/videos/c/o/v/be9dcd0bf77643eda49d587dbe908eef.mp4
 
-  3. positioneren --> 
+  3. uppercase in text --> https://www.w3schools.com/cssref/pr_text_text-transform.asp
 
-  4. uppercase in text --> https://www.w3schools.com/cssref/pr_text_text-transform.asp
+  4. Repsonsive images --> https://www.w3schools.com/howto/howto_css_image_responsive.asp
 
-  5. Repsonsive images --> https://www.w3schools.com/howto/howto_css_image_responsive.asp
-
-  6. remove white gap on page --> https://stackoverflow.com/questions/23664510/how-to-remove-white-space-left-and-right-side-of-page
+  5. remove white gap on page --> https://stackoverflow.com/questions/23664510/how-to-remove-white-space-left-and-right-side-of-page
 
 </details>
