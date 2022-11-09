@@ -8,6 +8,7 @@
     <title>Homepage</title>
 
     <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/styleHome.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -26,7 +27,8 @@
       <button><img src="images/homepage/section 1/arrowLeft.svg" /></button>
 
       <a href
-        >Buy two Small Advent Calendars and get the second one half price.</a>
+        >Buy two Small Advent Calendars and get the second one half price.</a
+      >
 
       <button><img src="images/homepage/section 1/arrowRight.svg" /></button>
 
@@ -57,31 +59,19 @@
         </ul>
       </nav>
 
-
-
-	<nav>
-		<button>sluit</button>
-			<ul>
-				<li><a href="#">Featured</a></li>
-				<li><a href="#">Flavours</a></li>
-				<li><a href="#">Drinkware</a></li>
-				<li><a href="#">Drinktech</a></li>
-				<li><a href="#">Discover</a></li>
-				<li><a href="#">Membership</a></li>
-				<li><a href="#">Earn Rewards</a></li>
-			</ul>
-
-	</nav>
-
-
-
+      <nav>
+        <button>sluit</button>
+        <ul>
+          <li><a href="#">Featured</a></li>
+          <li><a href="#">Flavours</a></li>
+          <li><a href="#">Drinkware</a></li>
+          <li><a href="#">Drinktech</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Earn Rewards</a></li>
+        </ul>
+      </nav>
     </header>
-
-
-
-
-
-
 
     <!--/*********************/
       /* MAIN */
@@ -91,30 +81,22 @@
       <!-- section 1 - landing page -->
 
       <section>
-        <!-- tag structuur gevonden bij w3schools - https://www.w3schools.com/html/html5_video.asp -->
-        <!-- <video loop controls>
-          <source src="images/homepage/section 1/vid Homepage.mp4" type="" />
-          Your browser does not support the video tag.
-        </video>  -->
-        <!-- BRON VIDEO: https://eu.waterdrop.com + https://cdn.shopify.com/videos/c/o/v/be9dcd0bf77643eda49d587dbe908eef.mp4 -->
+        <div>
+          <h1>waterdrop Advent Calendar 2022</h1>
+          <p>The star of the season - our christmas countdown</p>
+          <button>shop now</button>
+        </div>
 
         <img src="images/homepage/section 1/homePageImage.webp" />
-
-        <p>The star of the season - our christmas countdown</p>
-
-        <h1>waterdrop Advent Calendar 2022</h1>
-
-        <button>shop now</button>
       </section>
 
       <!-- Section 2 - carousel 1 -->
 
-
       <section>
-		<h2>Discover our products</h2>
+        <h2>Discover our products</h2>
         <ul>
           <li>
-            <a href="http://127.0.0.1:5500/detail.html">
+            <a href="detail.html">
               <img
                 src="images/homepage/section 2/car_1.webp"
                 alt="image taster pack"
@@ -125,7 +107,7 @@
             </a>
           </li>
           <li>
-            <a href="http://127.0.0.1:5500/detail.html">
+            <a href="detail.html">
               <img
                 src="images/homepage/section 2/car_2.webp"
                 alt="image starterpack with a glass bottle"
@@ -136,7 +118,7 @@
             </a>
           </li>
           <li>
-            <a href="http://127.0.0.1:5500/detail.html">
+            <a href="detail.html">
               <img
                 src="images/homepage/section 2/car_4.webp"
                 alt="image starter pack with a metal bottle"
@@ -147,7 +129,7 @@
             </a>
           </li>
           <li>
-            <a href="http://127.0.0.1:5500/detail.html">
+            <a href="detail.html">
               <img
                 src="images/homepage/section 2/car_4.webp"
                 alt="image starter pack with a metal bottle"
@@ -198,18 +180,21 @@
       <!-- SECTION 4 - Image Promotion -->
 
       <section>
-        <img src="images/homepage/section 4/imageSection4.webp" alt="" />
-        <h3>It's what's inside that counts.</h3>
-        <p>
-          At waterdrop®, we use only the best ingredients available in the world
-          — be it Acai from Brazil, Asian ginseng, moringa from India or African
-          Baobab. We use real fruit and plant extracts to turn your water into a
-          rejuvenating, delicious drink.
-        </p>
+        <div>
+          <h3>It's what's inside that counts.</h3>
+          <p>
+            At waterdrop®, we use only the best ingredients available in the
+            world — be it Acai from Brazil, Asian ginseng, moringa from India or
+            African Baobab. We use real fruit and plant extracts to turn your
+            water into a rejuvenating, delicious drink.
+          </p>
 
-        <a href="">
-          <button>Learn more</button>
-        </a>
+          <a href="#">
+            <button>Learn more</button>
+          </a>
+        </div>
+
+        <img src="images/homepage/section 4/imageSection4.webp" alt="" />
       </section>
 
       <!-- SECTION 5 - Community -->
@@ -283,6 +268,4 @@
       <img src="images/homepage/footer/payment9.svg" alt="" />
     </section>
   </footer>
-
-
 </html>

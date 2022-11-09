@@ -8,6 +8,7 @@
     <title>Detail page</title>
 
     <link href="styles/styleDetail.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
 
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
     <link
@@ -17,7 +18,8 @@
   </head>
 
   <body>
-    <script defer src="scripts/script.js"></script>
+      <!-- aparte js doc vanwege menu die niet werkte op de home page (suggestie van jeffrey) -->
+    <script defer src="scripts/scriptDetail.js"></script> 
 
     <!--/*********************/
       /* HEADER */
@@ -27,7 +29,8 @@
       <button><img src="images/homepage/section 1/arrowLeft.svg" /></button>
 
       <a href
-        >Buy two Small Advent Calendars and get the second one half price.</a>
+        >Buy two Small Advent Calendars and get the second one half price.</a
+      >
 
       <button><img src="images/homepage/section 1/arrowRight.svg" /></button>
 
@@ -79,12 +82,19 @@
     <!-- Section 1: above landingpage line -->
     <main>
       <section>
-        <h1>Starter Set Glass</h1>
-        <p>600 ml or 1L Bottle & Microdrinks</p>
         <div>
+          <h1>Starter Set Glass</h1>
+          <p>600 ml or 1L Bottle & Microdrinks</p>
+          <div>
             <p>€34,90</p>
             <p>€42,50</p>
+          </div>
         </div>
+
+        <!-- <h1>Starter Set Glass</h1>
+        <p>600 ml or 1L Bottle & Microdrinks</p>
+        <p>€34,90</p>
+        <p>€42,50</p> -->
         <p>(352) Reviews</p>
         <img src="images/homepage/section 2/car_2.webp" alt="" />
         <p>save 18%</p>
@@ -248,12 +258,14 @@
       <!-- SECTION 2 - Waterdrop steps (section type 7) -->
 
       <section>
-        <h1>What is waterdrop?</h1>
-        <h2>
-          WATERDROP® REFINES YOUR WATER WITH FRUIT AND PLANT EXTRACTS AND HELPS
-          YOU DRINK MORE – HOT OR COLD.
-        </h2>
-        <img src="images/detailpage/section 2/step_img1.webp" alt="" />
+        <div>
+          <h1>What is waterdrop?</h1>
+          <h2>
+            WATERDROP® REFINES YOUR WATER WITH FRUIT AND PLANT EXTRACTS AND
+            HELPS YOU DRINK MORE – HOT OR COLD.
+          </h2>
+          <img src="images/detailpage/section 2/step_img1.webp" alt="" />
+        </div>
       </section>
 
       <!-- (Steps overview section type 8) -->
@@ -308,46 +320,40 @@
         <img src="images/detailpage/section 4/promo_img4.webp" alt="" />
       </section>
 
+      <!-- SECTION 10 REVIEWs foto carousel -->
 
-<!-- SECTION 10 REVIEWs foto carousel -->
-    
-<section>
-<h2>Based on 266 reviews</h2>
-<img src="images/detailpage/section 3/promo_img2.webp">
+      <section>
+        <h2>Based on 266 reviews</h2>
+        <img src="images/detailpage/section 3/promo_img2.webp" />
+      </section>
 
-</section>
+      <section>
+        <h2>sort</h2>
+        <input type="text" placeholder="search" />
+        <img src="images/homepage/section 1/imgSearch.svg" alt="" />
+        <img src="images/detailpage/section 5/img_arrowDown.svg" alt="" />
+      </section>
 
+      <section>
+        <h2>product reviews</h2>
+        <h2>Questions</h2>
+      </section>
 
-<section>
-    <h2>sort</h2>
-    <input type="text" placeholder="search">
-    <img src="images/homepage/section 1/imgSearch.svg" alt=""/>
-    <img src="images/detailpage/section 5/img_arrowDown.svg" alt=""/>
-</section>
-
-
-<section>
-    <h2>product reviews</h2>
-    <h2>Questions</h2>
-</section>
-
-<section>
-<h2>Starter set Glass 600ml/vibe clear</h2>
-<p>verified customer</p>
-<p>cecilie</p>
-<p>hvidovre</p>
-<p>The bottle is beatirfule ngrjgnekgrenbrekbre</p>
-<img src="images/detailpage/section 3/promo_img2.webp">
-<p>was this review helpful?</p>
-<p>yes</p>
-<p>Report</p>
-<p>Share</p>
-<p>12 hours ago</p>
-</section>
-
+      <section>
+        <h2>Starter set Glass 600ml/vibe clear</h2>
+        <p>verified customer</p>
+        <p>cecilie</p>
+        <p>hvidovre</p>
+        <p>The bottle is beatirfule ngrjgnekgrenbrekbre</p>
+        <img src="images/detailpage/section 3/promo_img2.webp" />
+        <p>was this review helpful?</p>
+        <p>yes</p>
+        <p>Report</p>
+        <p>Share</p>
+        <p>12 hours ago</p>
+      </section>
     </main>
   </body>
-
 
   <!-- footer -->
 
