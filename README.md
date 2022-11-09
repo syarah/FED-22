@@ -477,6 +477,7 @@ Zoals eerder vermeld wil ik voor de volgende les de homepage volledig af en deta
 
 
   ## Homepage final
+  <img src="readme-images/progressie/voortgangEind/homepage/home_img1.png" width="375px" alt="">
 <img src="readme-images/progressie/voortgangEind/homepage/home_img1.png" width="300px" alt="uitomst opdracht 1">
 <img src="readme-images/progressie/voortgangEind/homepage/home_img2.png" width="300px" alt="uitomst opdracht 1">
 <img src="readme-images/progressie/voortgangEind/homepage/home_img3.png" width="300px" alt="uitomst opdracht 1">
